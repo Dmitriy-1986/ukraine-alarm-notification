@@ -8,7 +8,7 @@ const { Client, LocalAuth } = pkg;
 
 // === Конфигурация ===
 const API_URL = "https://alerts.com.ua/api/states"; // открытый API
-const CHAT_ID = "120363421935554505@g.us"; // <-- ID группы WhatsApp
+const CHAT_ID = "120567895675554505@g.us"; // <-- ID группы WhatsApp
 
 // === Настройка WhatsApp клиента ===
 console.clear();
@@ -86,3 +86,4 @@ async function startMonitoring() {
 }
 
 client.initialize();
+
